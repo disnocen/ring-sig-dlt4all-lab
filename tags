@@ -1,0 +1,549 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+BENCH	ecdsa/test_pyecdsa.py	/^BENCH = False$/;"	v
+BadDigestError	ecdsa/__init__.py	/^from .keys import SigningKey, VerifyingKey, BadSignatureError, BadDigestError$/;"	i
+BadDigestError	ecdsa/keys.py	/^class BadDigestError(Exception):$/;"	c
+BadSignatureError	ecdsa/__init__.py	/^from .keys import SigningKey, VerifyingKey, BadSignatureError, BadDigestError$/;"	i
+BadSignatureError	ecdsa/keys.py	/^class BadSignatureError(Exception):$/;"	c
+BadSignatureError	ecdsa/test_pyecdsa.py	/^from .keys import BadSignatureError$/;"	i
+Command	ecdsa/versioneer.py	/^    from distutils.core import Command$/;"	i
+Curve	ecdsa/curves.py	/^class Curve:$/;"	c
+Curve	ecdsa/test_pyecdsa.py	/^from .curves import Curve, UnknownCurveError$/;"	i
+CurveFp	ecdsa/ellipticcurve.py	/^class CurveFp(object):$/;"	c
+CurveFp	ecdsa/test_ellipticcurve.py	/^from .ellipticcurve import CurveFp, INFINITY, Point$/;"	i
+DER	ecdsa/test_pyecdsa.py	/^class DER(unittest.TestCase):$/;"	c
+ECDSA	ecdsa/test_pyecdsa.py	/^class ECDSA(unittest.TestCase):$/;"	c
+Error	ecdsa/numbertheory.py	/^class Error(Exception):$/;"	c
+FailedTest	ecdsa/test_ellipticcurve.py	/^  class FailedTest(Exception):$/;"	c	function:test_ellipticcurve
+FailedTest	ecdsa/test_numbertheory.py	/^  class FailedTest(Exception):$/;"	c	function:test_numbertheory
+FakeGenerator	ecdsa/test_pyecdsa.py	/^        class FakeGenerator:$/;"	c	function:ECDSA.test_pubkey_strings
+H1	linkable_ring_signature.py	/^def H1(msg, hash_func=hashlib.sha3_256):$/;"	f
+H2	linkable_ring_signature.py	/^def H2(msg, hash_func=hashlib.sha3_256):$/;"	f
+HANDLERS	ecdsa/_version.py	/^HANDLERS = {}$/;"	v
+HANDLERS	ecdsa/versioneer.py	/^HANDLERS = {}$/;"	v
+INFINITY	ecdsa/ellipticcurve.py	/^INFINITY = Point(None, None, None)$/;"	v
+INFINITY	ecdsa/test_ellipticcurve.py	/^from .ellipticcurve import CurveFp, INFINITY, Point$/;"	i
+LONG_VERSION_PY	ecdsa/_version.py	/^LONG_VERSION_PY = {}$/;"	v
+LONG_VERSION_PY	ecdsa/versioneer.py	/^LONG_VERSION_PY = {}$/;"	v
+NIST192p	ecdsa/__init__.py	/^from .curves import NIST192p, NIST224p, NIST256p, NIST384p, NIST521p, SECP256k1$/;"	i
+NIST192p	ecdsa/curves.py	/^NIST192p = Curve("NIST192p", ecdsa.curve_192,$/;"	v
+NIST192p	ecdsa/keys.py	/^from .curves import NIST192p, find_curve$/;"	i
+NIST192p	ecdsa/test_pyecdsa.py	/^from .curves import NIST192p, NIST224p, NIST256p, NIST384p, NIST521p, SECP256k1$/;"	i
+NIST224p	ecdsa/__init__.py	/^from .curves import NIST192p, NIST224p, NIST256p, NIST384p, NIST521p, SECP256k1$/;"	i
+NIST224p	ecdsa/curves.py	/^NIST224p = Curve("NIST224p", ecdsa.curve_224,$/;"	v
+NIST224p	ecdsa/test_pyecdsa.py	/^from .curves import NIST192p, NIST224p, NIST256p, NIST384p, NIST521p, SECP256k1$/;"	i
+NIST256p	ecdsa/__init__.py	/^from .curves import NIST192p, NIST224p, NIST256p, NIST384p, NIST521p, SECP256k1$/;"	i
+NIST256p	ecdsa/curves.py	/^NIST256p = Curve("NIST256p", ecdsa.curve_256,$/;"	v
+NIST256p	ecdsa/test_pyecdsa.py	/^from .curves import NIST192p, NIST224p, NIST256p, NIST384p, NIST521p, SECP256k1$/;"	i
+NIST384p	ecdsa/__init__.py	/^from .curves import NIST192p, NIST224p, NIST256p, NIST384p, NIST521p, SECP256k1$/;"	i
+NIST384p	ecdsa/curves.py	/^NIST384p = Curve("NIST384p", ecdsa.curve_384,$/;"	v
+NIST384p	ecdsa/test_pyecdsa.py	/^from .curves import NIST192p, NIST224p, NIST256p, NIST384p, NIST521p, SECP256k1$/;"	i
+NIST521p	ecdsa/__init__.py	/^from .curves import NIST192p, NIST224p, NIST256p, NIST384p, NIST521p, SECP256k1$/;"	i
+NIST521p	ecdsa/curves.py	/^NIST521p = Curve("NIST521p", ecdsa.curve_521,$/;"	v
+NIST521p	ecdsa/test_pyecdsa.py	/^from .curves import NIST192p, NIST224p, NIST256p, NIST384p, NIST521p, SECP256k1$/;"	i
+NegativeExponentError	ecdsa/numbertheory.py	/^class NegativeExponentError(Error):$/;"	c
+NotThisMethod	ecdsa/_version.py	/^class NotThisMethod(Exception):$/;"	c
+NotThisMethod	ecdsa/versioneer.py	/^class NotThisMethod(Exception):$/;"	c
+OFF_test_prove_uniformity	ecdsa/test_pyecdsa.py	/^    def OFF_test_prove_uniformity(self):$/;"	m	class:Util
+OpenSSL	ecdsa/test_pyecdsa.py	/^class OpenSSL(unittest.TestCase):$/;"	c
+PRNG	ecdsa/util.py	/^class PRNG:$/;"	c
+PY3	ecdsa/keys.py	/^from six import PY3, b$/;"	i
+PY3	ecdsa/util.py	/^from six import PY3, int2byte, b, next$/;"	i
+Point	ecdsa/ellipticcurve.py	/^class Point(object):$/;"	c
+Point	ecdsa/test_ellipticcurve.py	/^from .ellipticcurve import CurveFp, INFINITY, Point$/;"	i
+Point	ecdsa/test_pyecdsa.py	/^from .ellipticcurve import Point$/;"	i
+Private_key	ecdsa/ecdsa.py	/^class Private_key(object):$/;"	c
+Private_key	ecdsa/test_ecdsa.py	/^from .ecdsa import (Private_key, Public_key, Signature,$/;"	i
+Public_key	ecdsa/ecdsa.py	/^class Public_key(object):$/;"	c
+Public_key	ecdsa/test_ecdsa.py	/^from .ecdsa import (Private_key, Public_key, Signature,$/;"	i
+RFC6979	ecdsa/test_pyecdsa.py	/^class RFC6979(unittest.TestCase):$/;"	c
+S1	ecdsa/speed.py	/^    S1 = "import six; from ecdsa import SigningKey, %s" % curve$/;"	v
+S6	ecdsa/speed.py	/^    S6 = "vk.verify(sig, msg)"$/;"	v
+SECP256k1	ecdsa/__init__.py	/^from .curves import NIST192p, NIST224p, NIST256p, NIST384p, NIST521p, SECP256k1$/;"	i
+SECP256k1	ecdsa/curves.py	/^SECP256k1 = Curve("SECP256k1", ecdsa.curve_secp256k1,$/;"	v
+SECP256k1	ecdsa/test_pyecdsa.py	/^from .curves import NIST192p, NIST224p, NIST256p, NIST384p, NIST521p, SECP256k1$/;"	i
+SECP256k1	linkable_ring_signature.py	/^from ecdsa.curves import SECP256k1$/;"	i
+Signature	ecdsa/ecdsa.py	/^class Signature(object):$/;"	c
+Signature	ecdsa/test_ecdsa.py	/^from .ecdsa import (Private_key, Public_key, Signature,$/;"	i
+SigningKey	ecdsa/__init__.py	/^from .keys import SigningKey, VerifyingKey, BadSignatureError, BadDigestError$/;"	i
+SigningKey	ecdsa/keys.py	/^class SigningKey:$/;"	c
+SigningKey	ecdsa/speed.py	/^    S1 = "import six; from ecdsa import SigningKey, %s" % curve$/;"	i
+SigningKey	ecdsa/test_pyecdsa.py	/^from .keys import SigningKey, VerifyingKey$/;"	i
+SquareRootError	ecdsa/numbertheory.py	/^class SquareRootError(Error):$/;"	c
+SquareRootError	ecdsa/test_numbertheory.py	/^from .numbertheory import (SquareRootError, factorization, gcd, lcm,$/;"	i
+SubprocessError	ecdsa/test_pyecdsa.py	/^class SubprocessError(Exception):$/;"	c
+TestFailure	ecdsa/test_ecdsa.py	/^  class TestFailure(Exception):$/;"	c	function:test_ecdsa
+UnexpectedDER	ecdsa/der.py	/^class UnexpectedDER(Exception):$/;"	c
+UnknownCurveError	ecdsa/curves.py	/^class UnknownCurveError(Exception):$/;"	c
+UnknownCurveError	ecdsa/test_pyecdsa.py	/^from .curves import Curve, UnknownCurveError$/;"	i
+Util	ecdsa/test_pyecdsa.py	/^class Util(unittest.TestCase):$/;"	c
+VerifyingKey	ecdsa/__init__.py	/^from .keys import SigningKey, VerifyingKey, BadSignatureError, BadDigestError$/;"	i
+VerifyingKey	ecdsa/keys.py	/^class VerifyingKey:$/;"	c
+VerifyingKey	ecdsa/test_pyecdsa.py	/^from .keys import SigningKey, VerifyingKey$/;"	i
+VersioneerBadRootError	ecdsa/versioneer.py	/^class VersioneerBadRootError(Exception):$/;"	c
+VersioneerConfig	ecdsa/_version.py	/^class VersioneerConfig:$/;"	c
+VersioneerConfig	ecdsa/versioneer.py	/^class VersioneerConfig:$/;"	c
+_Gx	ecdsa/ecdsa.py	/^_Gx = 0x188da80eb03090f67cbf20eb43a18800f4ff0afd82ff1012$/;"	v
+_Gx	ecdsa/ecdsa.py	/^_Gx = 0x6b17d1f2e12c4247f8bce6e563a440f277037d812deb33a0f4a13945d898c296$/;"	v
+_Gx	ecdsa/ecdsa.py	/^_Gx = 0x79be667ef9dcbbac55a06295ce870b07029bfcdb2dce28d959f2815b16f81798$/;"	v
+_Gx	ecdsa/ecdsa.py	/^_Gx = 0xaa87ca22be8b05378eb1c71ef320ad746e1d3b628ba79b9859f741e082542a385502f25dbf55296c3a545e3872760ab7$/;"	v
+_Gx	ecdsa/ecdsa.py	/^_Gx = 0xb70e0cbd6bb4bf7f321390b94a03c1d356c21122343280d6115c1d21$/;"	v
+_Gx	ecdsa/ecdsa.py	/^_Gx = 0xc6858e06b70404e9cd9e3ecb662395b4429c648139053fb521f828af606b4d3dbaa14b5e77efe75928fe1dc127a2ffa8de3348b3c1856a429bf97e7e31c2e5bd66$/;"	v
+_Gy	ecdsa/ecdsa.py	/^_Gy = 0x07192b95ffc8da78631011ed6b24cdd573f977a11e794811$/;"	v
+_Gy	ecdsa/ecdsa.py	/^_Gy = 0x11839296a789a3bc0045c8a5fb42c7d1bd998f54449579b446817afbd17273e662c97ee72995ef42640c550b9013fad0761353c7086a272c24088be94769fd16650$/;"	v
+_Gy	ecdsa/ecdsa.py	/^_Gy = 0x3617de4a96262c6f5d9e98bf9292dc29f8f41dbd289a147ce9da3113b5f0b8c00a60b1ce1d7e819d7a431d7c90ea0e5f$/;"	v
+_Gy	ecdsa/ecdsa.py	/^_Gy = 0x483ada7726a3c4655da4fbfc0e1108a8fd17b448a68554199c47d08ffb10d4b8$/;"	v
+_Gy	ecdsa/ecdsa.py	/^_Gy = 0x4fe342e2fe1a7f9b8ee7eb4a7c0f9e162bce33576b315ececbb6406837bf51f5$/;"	v
+_Gy	ecdsa/ecdsa.py	/^_Gy = 0xbd376388b5f723fb4c22dfe6cd4375a05a07476444d5819985007e34$/;"	v
+__add__	ecdsa/ellipticcurve.py	/^  def __add__(self, other):$/;"	m	class:Point	file:
+__all__	ecdsa/__init__.py	/^__all__ = ["curves", "der", "ecdsa", "ellipticcurve", "keys", "numbertheory",$/;"	v
+__call__	ecdsa/util.py	/^    def __call__(self, numbytes):$/;"	m	class:PRNG	file:
+__eq__	ecdsa/ellipticcurve.py	/^  def __eq__(self, other):$/;"	m	class:Point	file:
+__init__	ecdsa/curves.py	/^    def __init__(self, name, curve, generator, oid, openssl_name=None):$/;"	m	class:Curve
+__init__	ecdsa/ecdsa.py	/^  def __init__(self, generator, point):$/;"	m	class:Public_key
+__init__	ecdsa/ecdsa.py	/^  def __init__(self, public_key, secret_multiplier):$/;"	m	class:Private_key
+__init__	ecdsa/ecdsa.py	/^  def __init__(self, r, s):$/;"	m	class:Signature
+__init__	ecdsa/ellipticcurve.py	/^  def __init__(self, curve, x, y, order=None):$/;"	m	class:Point
+__init__	ecdsa/ellipticcurve.py	/^  def __init__(self, p, a, b):$/;"	m	class:CurveFp
+__init__	ecdsa/keys.py	/^    def __init__(self, _error__please_use_generate=None):$/;"	m	class:SigningKey
+__init__	ecdsa/keys.py	/^    def __init__(self, _error__please_use_generate=None):$/;"	m	class:VerifyingKey
+__init__	ecdsa/util.py	/^    def __init__(self, seed):$/;"	m	class:PRNG
+__main__	ecdsa/test_pyecdsa.py	/^def __main__():$/;"	f	file:
+__mul__	ecdsa/ellipticcurve.py	/^  def __mul__(self, other):$/;"	m	class:Point	file:
+__rmul__	ecdsa/ellipticcurve.py	/^  def __rmul__(self, other):$/;"	m	class:Point	file:
+__str__	ecdsa/ellipticcurve.py	/^  def __str__(self):$/;"	m	class:CurveFp	file:
+__str__	ecdsa/ellipticcurve.py	/^  def __str__(self):$/;"	m	class:Point	file:
+__version__	ecdsa/__init__.py	/^__version__ = get_versions()['version']$/;"	v
+_a	ecdsa/ecdsa.py	/^_a = 0x0000000000000000000000000000000000000000000000000000000000000000$/;"	v
+_b	ecdsa/ecdsa.py	/^_b = 0x0000000000000000000000000000000000000000000000000000000000000007$/;"	v
+_b	ecdsa/ecdsa.py	/^_b = 0x051953eb9618e1c9a1f929a21a0b68540eea2da725b99b315f3b8b489918ef109e156193951ec7e937b1652c0bd3bb1bf073573df883d2c34f1ef451fd46b503f00$/;"	v
+_b	ecdsa/ecdsa.py	/^_b = 0x5ac635d8aa3a93e7b3ebbd55769886bc651d06b0cc53b0f63bce3c3e27d2604b$/;"	v
+_b	ecdsa/ecdsa.py	/^_b = 0x64210519e59c80e70fa7e9ab72243049feb8deecc146b9b1$/;"	v
+_b	ecdsa/ecdsa.py	/^_b = 0xb3312fa7e23ee7e4988e056be3f82d19181d9c6efe8141120314088f5013875ac656398d8a2ed19d2a85c8edd3ec2aef$/;"	v
+_b	ecdsa/ecdsa.py	/^_b = 0xb4050a850c04b3abf54132565044b0b7d7bfd8ba270b39432355ffb4$/;"	v
+_build_exe	ecdsa/versioneer.py	/^        from cx_Freeze.dist import build_exe as _build_exe$/;"	i
+_build_py	ecdsa/versioneer.py	/^        from distutils.command.build_py import build_py as _build_py$/;"	i
+_build_py	ecdsa/versioneer.py	/^        from setuptools.command.build_py import build_py as _build_py$/;"	i
+_do	ecdsa/test_pyecdsa.py	/^    def _do(self, generator, secexp, hsh, hash_func, expected):$/;"	m	class:RFC6979
+_hush_pyflakes	ecdsa/__init__.py	/^_hush_pyflakes = [SigningKey, VerifyingKey, BadSignatureError, BadDigestError,$/;"	v
+_p	ecdsa/ecdsa.py	/^_p = 0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffefffffc2f$/;"	v
+_p	ecdsa/ecdsa.py	/^_p = 115792089210356248762697446949407573530086143415290314195533631308867097853951$/;"	v
+_p	ecdsa/ecdsa.py	/^_p = 26959946667150639794667015087019630673557916260026308143510066298881$/;"	v
+_p	ecdsa/ecdsa.py	/^_p = 39402006196394479212279040100143613805079739270465446667948293404245721771496870329047266088258938001861606973112319$/;"	v
+_p	ecdsa/ecdsa.py	/^_p = 6277101735386680763835789423207666416083908700390324961279$/;"	v
+_p	ecdsa/ecdsa.py	/^_p = 6864797660130609714981900799081393217269435300143305409394463459185543183397656052122559640661454554977296311391480858037121987999716643812574028291115057151$/;"	v
+_py2exe	ecdsa/versioneer.py	/^            from py2exe.build_exe import py2exe as _py2exe  # py2$/;"	i
+_py2exe	ecdsa/versioneer.py	/^            from py2exe.distutils_buildexe import py2exe as _py2exe  # py3$/;"	i
+_r	ecdsa/ecdsa.py	/^_r = 0xfffffffffffffffffffffffffffffffebaaedce6af48a03bbfd25e8cd0364141$/;"	v
+_r	ecdsa/ecdsa.py	/^_r = 115792089210356248762697446949407573529996955224135760342422259061068512044369$/;"	v
+_r	ecdsa/ecdsa.py	/^_r = 26959946667150639794667015087019625940457807714424391721682722368061$/;"	v
+_r	ecdsa/ecdsa.py	/^_r = 39402006196394479212279040100143613805079739270465446667946905279627659399113263569398956308152294913554433653942643$/;"	v
+_r	ecdsa/ecdsa.py	/^_r = 6277101735386680763835789423176059013767194773182842284081$/;"	v
+_r	ecdsa/ecdsa.py	/^_r = 6864797660130609714981900799081393217269435300143305409394463459185543183397655394245057746333217197532963996371363321113864768612440380340372808892707005449$/;"	v
+_sdist	ecdsa/versioneer.py	/^        from distutils.command.sdist import sdist as _sdist$/;"	i
+_sdist	ecdsa/versioneer.py	/^        from setuptools.command.sdist import sdist as _sdist$/;"	i
+a	ecdsa/ellipticcurve.py	/^  def a(self):$/;"	m	class:CurveFp
+assertTruePrivkeysEqual	ecdsa/test_pyecdsa.py	/^    def assertTruePrivkeysEqual(self, priv1, priv2):$/;"	m	class:ECDSA
+assertTruePubkeysEqual	ecdsa/test_pyecdsa.py	/^    def assertTruePubkeysEqual(self, pub1, pub2):$/;"	m	class:ECDSA
+author	ecdsa/setup.py	/^      author="Brian Warner",$/;"	v
+author_email	ecdsa/setup.py	/^      author_email="warner@lothar.com",$/;"	v
+b	ecdsa/der.py	/^from six import int2byte, b, integer_types, text_type$/;"	i
+b	ecdsa/ecdsa.py	/^from six import int2byte, b$/;"	i
+b	ecdsa/ellipticcurve.py	/^  def b(self):$/;"	m	class:CurveFp
+b	ecdsa/keys.py	/^from six import PY3, b$/;"	i
+b	ecdsa/rfc6979.py	/^from six import b$/;"	i
+b	ecdsa/test_pyecdsa.py	/^from six import b, print_, binary_type$/;"	i
+b	ecdsa/util.py	/^from six import PY3, int2byte, b, next$/;"	i
+base64	ecdsa/der.py	/^import base64$/;"	i
+bin	ecdsa/rfc6979.py	/^    def bin(value):  # for python2.5$/;"	f
+binary_type	ecdsa/test_pyecdsa.py	/^from six import b, print_, binary_type$/;"	i
+binascii	ecdsa/der.py	/^import binascii$/;"	i
+binascii	ecdsa/keys.py	/^import binascii$/;"	i
+binascii	ecdsa/util.py	/^import binascii$/;"	i
+binmap	ecdsa/rfc6979.py	/^    binmap = {"0": "0000", "1": "0001", "2": "0010", "3": "0011",$/;"	v
+bit_length	ecdsa/rfc6979.py	/^def bit_length(num):$/;"	f
+bits2int	ecdsa/rfc6979.py	/^def bits2int(data, qlen):$/;"	f
+bits2octets	ecdsa/rfc6979.py	/^def bits2octets(data, order):$/;"	f
+bits_and_bytes	ecdsa/util.py	/^def bits_and_bytes(order):$/;"	f
+block_generator	ecdsa/util.py	/^    def block_generator(self, seed):$/;"	m	class:PRNG
+boolean_options	ecdsa/versioneer.py	/^        boolean_options = []$/;"	v	class:get_cmdclass.cmd_version
+c	ecdsa/speed.py	/^    c = getattr(ecdsa, curve)$/;"	v
+carmichael	ecdsa/numbertheory.py	/^def carmichael(n):$/;"	f
+carmichael_of_factorized	ecdsa/numbertheory.py	/^def carmichael_of_factorized(f_list):$/;"	f
+carmichael_of_ppower	ecdsa/numbertheory.py	/^def carmichael_of_ppower(pp):$/;"	f
+classifiers	ecdsa/setup.py	/^      classifiers=[$/;"	v
+cmd	ecdsa/versioneer.py	/^    cmd = sys.argv[1]$/;"	v
+cmd_build_exe	ecdsa/versioneer.py	/^        class cmd_build_exe(_build_exe):$/;"	c	class:get_cmdclass.cmd_build_py
+cmd_build_py	ecdsa/versioneer.py	/^    class cmd_build_py(_build_py):$/;"	c	function:get_cmdclass
+cmd_py2exe	ecdsa/versioneer.py	/^        class cmd_py2exe(_py2exe):$/;"	c	class:get_cmdclass.cmd_build_py
+cmd_sdist	ecdsa/versioneer.py	/^    class cmd_sdist(_sdist):$/;"	c	function:get_cmdclass
+cmd_version	ecdsa/versioneer.py	/^    class cmd_version(Command):$/;"	c	function:get_cmdclass
+cmdclass	ecdsa/setup.py	/^      cmdclass=commands,$/;"	v
+commands	ecdsa/setup.py	/^commands = versioneer.get_cmdclass().copy()$/;"	v
+concat	linkable_ring_signature.py	/^def concat(params):$/;"	f
+configparser	ecdsa/versioneer.py	/^    import ConfigParser as configparser$/;"	i
+configparser	ecdsa/versioneer.py	/^    import configparser$/;"	i
+contains_point	ecdsa/ellipticcurve.py	/^  def contains_point(self, x, y):$/;"	m	class:CurveFp
+curve	ecdsa/ellipticcurve.py	/^  def curve(self):$/;"	m	class:Point
+curve_192	ecdsa/ecdsa.py	/^curve_192 = ellipticcurve.CurveFp(_p, -3, _b)$/;"	v
+curve_224	ecdsa/ecdsa.py	/^curve_224 = ellipticcurve.CurveFp(_p, -3, _b)$/;"	v
+curve_256	ecdsa/ecdsa.py	/^curve_256 = ellipticcurve.CurveFp(_p, -3, _b)$/;"	v
+curve_384	ecdsa/ecdsa.py	/^curve_384 = ellipticcurve.CurveFp(_p, -3, _b)$/;"	v
+curve_521	ecdsa/ecdsa.py	/^curve_521 = ellipticcurve.CurveFp(_p, -3, _b)$/;"	v
+curve_secp256k1	ecdsa/ecdsa.py	/^curve_secp256k1 = ellipticcurve.CurveFp(_p, _a, _b)$/;"	v
+curve_secp256k1	linkable_ring_signature.py	/^from ecdsa.ecdsa import curve_secp256k1$/;"	i
+curves	ecdsa/curves.py	/^curves = [NIST192p, NIST224p, NIST256p, NIST384p, NIST521p, SECP256k1]$/;"	v
+decorate	ecdsa/_version.py	/^    def decorate(f):$/;"	f	function:register_vcs_handler
+decorate	ecdsa/versioneer.py	/^    def decorate(f):$/;"	f	function:register_vcs_handler
+der	ecdsa/curves.py	/^from . import der, ecdsa$/;"	i
+der	ecdsa/keys.py	/^from . import der$/;"	i
+der	ecdsa/test_pyecdsa.py	/^from . import der$/;"	i
+der	ecdsa/util.py	/^from . import der$/;"	i
+description	ecdsa/setup.py	/^      description="ECDSA cryptographic signature library (pure python)",$/;"	v
+description	ecdsa/versioneer.py	/^        description = "report generated version string"$/;"	v	class:get_cmdclass.cmd_version
+digest_integer	ecdsa/ecdsa.py	/^def digest_integer(m):$/;"	f
+division	ecdsa/curves.py	/^from __future__ import division$/;"	i
+division	ecdsa/der.py	/^from __future__ import division$/;"	i
+division	ecdsa/ellipticcurve.py	/^from __future__ import division$/;"	i
+division	ecdsa/numbertheory.py	/^from __future__ import division$/;"	i
+division	ecdsa/test_pyecdsa.py	/^from __future__ import with_statement, division$/;"	i
+division	ecdsa/util.py	/^from __future__ import division$/;"	i
+do	ecdsa/speed.py	/^def do(setup_statements, statement):$/;"	f
+do_setup	ecdsa/versioneer.py	/^def do_setup():$/;"	f
+do_test_from_openssl	ecdsa/test_pyecdsa.py	/^    def do_test_from_openssl(self, curve):$/;"	m	class:OpenSSL
+do_test_to_openssl	ecdsa/test_pyecdsa.py	/^    def do_test_to_openssl(self, curve):$/;"	m	class:OpenSSL
+do_vcs_install	ecdsa/versioneer.py	/^def do_vcs_install(manifest_in, versionfile_source, ipy):$/;"	f
+double	ecdsa/ellipticcurve.py	/^  def double(self):$/;"	m	class:Point
+ecdsa	ecdsa/curves.py	/^from . import der, ecdsa$/;"	i
+ecdsa	ecdsa/keys.py	/^from . import ecdsa$/;"	i
+ecdsa	ecdsa/speed.py	/^    S1 = "import six; from ecdsa import SigningKey, %s" % curve$/;"	i
+ecdsa	ecdsa/speed.py	/^    import ecdsa$/;"	i
+ecdsa	linkable_ring_signature.py	/^import ecdsa$/;"	i
+ellipticcurve	ecdsa/ecdsa.py	/^from . import ellipticcurve$/;"	i
+ellipticcurve	ecdsa/keys.py	/^        from . import ellipticcurve$/;"	i
+encode_bitstring	ecdsa/der.py	/^def encode_bitstring(s):$/;"	f
+encode_constructed	ecdsa/der.py	/^def encode_constructed(tag, value):$/;"	f
+encode_integer	ecdsa/der.py	/^def encode_integer(r):$/;"	f
+encode_length	ecdsa/der.py	/^def encode_length(l):$/;"	f
+encode_number	ecdsa/der.py	/^def encode_number(n):$/;"	f
+encode_octet_string	ecdsa/der.py	/^def encode_octet_string(s):$/;"	f
+encode_oid	ecdsa/der.py	/^def encode_oid(first, second, *pieces):$/;"	f
+encode_sequence	ecdsa/der.py	/^def encode_sequence(*encoded_pieces):$/;"	f
+encoded_oid_ecPublicKey	ecdsa/keys.py	/^from .util import oid_ecPublicKey, encoded_oid_ecPublicKey$/;"	i
+encoded_oid_ecPublicKey	ecdsa/util.py	/^encoded_oid_ecPublicKey = der.encode_oid(*oid_ecPublicKey)$/;"	v
+errno	ecdsa/_version.py	/^import errno$/;"	i
+errno	ecdsa/versioneer.py	/^import errno$/;"	i
+errors	ecdsa/versioneer.py	/^        errors = do_setup()$/;"	v
+export_private_keys	linkable_ring_signature.py	/^def export_private_keys(s_keys, foler_name='.\/data', file_name='secrets.txt'):$/;"	f
+export_signature	linkable_ring_signature.py	/^def export_signature(y, message, signature, foler_name='.\/data', file_name='signature.txt'):$/;"	f
+export_signature_javascript	linkable_ring_signature.py	/^def export_signature_javascript(y, message, signature, foler_name='.\/data', file_name='signature.js'):$/;"	f
+factorization	ecdsa/numbertheory.py	/^def factorization(n):$/;"	f
+factorization	ecdsa/test_numbertheory.py	/^from .numbertheory import (SquareRootError, factorization, gcd, lcm,$/;"	i
+failIfPrivkeysEqual	ecdsa/test_pyecdsa.py	/^    def failIfPrivkeysEqual(self, priv1, priv2):$/;"	m	class:ECDSA
+finalize_options	ecdsa/versioneer.py	/^        def finalize_options(self):$/;"	m	class:get_cmdclass.cmd_version
+find_curve	ecdsa/curves.py	/^def find_curve(oid_curve):$/;"	f
+find_curve	ecdsa/keys.py	/^from .curves import NIST192p, find_curve$/;"	i
+from	ecdsa/speed.py	/^    S1 = "import six; from ecdsa import SigningKey, %s" % curve$/;"	i
+from_der	ecdsa/keys.py	/^    def from_der(klass, string):$/;"	m	class:VerifyingKey
+from_der	ecdsa/keys.py	/^    def from_der(klass, string, hashfunc=sha1):$/;"	m	class:SigningKey
+from_pem	ecdsa/keys.py	/^    def from_pem(klass, string):$/;"	m	class:VerifyingKey
+from_pem	ecdsa/keys.py	/^    def from_pem(klass, string, hashfunc=sha1):$/;"	m	class:SigningKey
+from_public_point	ecdsa/keys.py	/^    def from_public_point(klass, point, curve=NIST192p, hashfunc=sha1):$/;"	m	class:VerifyingKey
+from_secret_exponent	ecdsa/keys.py	/^    def from_secret_exponent(klass, secexp, curve=NIST192p, hashfunc=sha1):$/;"	m	class:SigningKey
+from_string	ecdsa/keys.py	/^    def from_string(klass, string, curve=NIST192p, hashfunc=sha1):$/;"	m	class:SigningKey
+from_string	ecdsa/keys.py	/^    def from_string(klass, string, curve=NIST192p, hashfunc=sha1,$/;"	m	class:VerifyingKey
+functools	linkable_ring_signature.py	/^import functools$/;"	i
+gcd	ecdsa/numbertheory.py	/^def gcd(*a):$/;"	f
+gcd	ecdsa/test_numbertheory.py	/^from .numbertheory import (SquareRootError, factorization, gcd, lcm,$/;"	i
+gcd2	ecdsa/numbertheory.py	/^def gcd2(a, b):$/;"	f
+generate	ecdsa/keys.py	/^    def generate(klass, curve=NIST192p, entropy=None, hashfunc=sha1):$/;"	m	class:SigningKey
+generate_k	ecdsa/rfc6979.py	/^def generate_k(order, secexp, hash_func, data):$/;"	f
+generator_192	ecdsa/ecdsa.py	/^generator_192 = ellipticcurve.Point(curve_192, _Gx, _Gy, _r)$/;"	v
+generator_224	ecdsa/ecdsa.py	/^generator_224 = ellipticcurve.Point(curve_224, _Gx, _Gy, _r)$/;"	v
+generator_256	ecdsa/ecdsa.py	/^generator_256 = ellipticcurve.Point(curve_256, _Gx, _Gy, _r)$/;"	v
+generator_384	ecdsa/ecdsa.py	/^generator_384 = ellipticcurve.Point(curve_384, _Gx, _Gy, _r)$/;"	v
+generator_521	ecdsa/ecdsa.py	/^generator_521 = ellipticcurve.Point(curve_521, _Gx, _Gy, _r)$/;"	v
+generator_secp256k1	ecdsa/ecdsa.py	/^generator_secp256k1 = ellipticcurve.Point(curve_secp256k1, _Gx, _Gy, _r)$/;"	v
+get	ecdsa/versioneer.py	/^    def get(parser, name):$/;"	f	function:get_config_from_root
+get_cmdclass	ecdsa/versioneer.py	/^def get_cmdclass():$/;"	f
+get_config	ecdsa/_version.py	/^def get_config():$/;"	f
+get_config_from_root	ecdsa/versioneer.py	/^def get_config_from_root(root):$/;"	f
+get_keywords	ecdsa/_version.py	/^def get_keywords():$/;"	f
+get_openssl_messagedigest_arg	ecdsa/test_pyecdsa.py	/^    def get_openssl_messagedigest_arg(self):$/;"	m	class:OpenSSL
+get_root	ecdsa/versioneer.py	/^def get_root():$/;"	f
+get_verifying_key	ecdsa/keys.py	/^    def get_verifying_key(self):$/;"	m	class:SigningKey
+get_version	ecdsa/versioneer.py	/^def get_version():$/;"	f
+get_versions	ecdsa/__init__.py	/^from ._version import get_versions$/;"	i
+get_versions	ecdsa/_version.py	/^def get_versions():$/;"	f
+get_versions	ecdsa/versioneer.py	/^def get_versions(verbose=False):$/;"	f
+git_get_keywords	ecdsa/_version.py	/^def git_get_keywords(versionfile_abs):$/;"	f
+git_get_keywords	ecdsa/versioneer.py	/^def git_get_keywords(versionfile_abs):$/;"	f
+git_pieces_from_vcs	ecdsa/_version.py	/^def git_pieces_from_vcs(tag_prefix, root, verbose, run_command=run_command):$/;"	f
+git_pieces_from_vcs	ecdsa/versioneer.py	/^def git_pieces_from_vcs(tag_prefix, root, verbose, run_command=run_command):$/;"	f
+git_versions_from_keywords	ecdsa/_version.py	/^def git_versions_from_keywords(keywords, tag_prefix, verbose):$/;"	f
+git_versions_from_keywords	ecdsa/versioneer.py	/^def git_versions_from_keywords(keywords, tag_prefix, verbose):$/;"	f
+hashlib	linkable_ring_signature.py	/^import hashlib$/;"	i
+hexlify	ecdsa/rfc6979.py	/^from binascii import hexlify$/;"	i
+hexlify	ecdsa/test_pyecdsa.py	/^from binascii import hexlify, unhexlify$/;"	i
+hmac	ecdsa/rfc6979.py	/^import hmac$/;"	i
+import	ecdsa/speed.py	/^    S1 = "import six; from ecdsa import SigningKey, %s" % curve$/;"	i
+initialize_options	ecdsa/versioneer.py	/^        def initialize_options(self):$/;"	m	class:get_cmdclass.cmd_version
+install_requires	ecdsa/setup.py	/^      install_requires=['six'],$/;"	v
+int2byte	ecdsa/der.py	/^from six import int2byte, b, integer_types, text_type$/;"	i
+int2byte	ecdsa/ecdsa.py	/^from six import int2byte, b$/;"	i
+int2byte	ecdsa/util.py	/^from six import PY3, int2byte, b, next$/;"	i
+int_to_string	ecdsa/ecdsa.py	/^def int_to_string(x):$/;"	f
+integer_types	ecdsa/der.py	/^from six import int2byte, b, integer_types, text_type$/;"	i
+integer_types	ecdsa/numbertheory.py	/^from six import integer_types$/;"	i
+inverse_mod	ecdsa/numbertheory.py	/^def inverse_mod(a, m):$/;"	f
+is_prime	ecdsa/numbertheory.py	/^def is_prime(n):$/;"	f
+jacobi	ecdsa/numbertheory.py	/^def jacobi(a, n):$/;"	f
+json	ecdsa/versioneer.py	/^import json$/;"	i
+keygen	ecdsa/speed.py	/^    keygen = do([S1], S2)$/;"	v
+kinda_order_mod	ecdsa/numbertheory.py	/^def kinda_order_mod(x, m):$/;"	f
+largest_factor_relatively_prime	ecdsa/numbertheory.py	/^def largest_factor_relatively_prime(a, b):$/;"	f
+lcm	ecdsa/numbertheory.py	/^def lcm(*a):$/;"	f
+lcm	ecdsa/test_numbertheory.py	/^from .numbertheory import (SquareRootError, factorization, gcd, lcm,$/;"	i
+lcm2	ecdsa/numbertheory.py	/^def lcm2(a, b):$/;"	f
+leftmost_bit	ecdsa/ellipticcurve.py	/^    def leftmost_bit(x):$/;"	f	function:Point.__mul__
+license	ecdsa/setup.py	/^      license="MIT",$/;"	v
+lsb_of_ones	ecdsa/util.py	/^def lsb_of_ones(numbits):$/;"	f
+main	linkable_ring_signature.py	/^def main():$/;"	f
+make_release_tree	ecdsa/versioneer.py	/^        def make_release_tree(self, base_dir, files):$/;"	m	class:get_cmdclass.cmd_sdist
+map_to_curve	linkable_ring_signature.py	/^def map_to_curve(x, P=curve_secp256k1.p()):$/;"	f
+math	ecdsa/numbertheory.py	/^import math$/;"	i
+math	ecdsa/util.py	/^import math$/;"	i
+miller_rabin_test_count	ecdsa/numbertheory.py	/^miller_rabin_test_count = 0$/;"	v
+modular_exp	ecdsa/numbertheory.py	/^def modular_exp(base, exponent, modulus):$/;"	f
+next	ecdsa/util.py	/^from six import PY3, int2byte, b, next$/;"	i
+next_prime	ecdsa/numbertheory.py	/^def next_prime(starting_value):$/;"	f
+not_much_entropy	ecdsa/test_pyecdsa.py	/^        def not_much_entropy(numbytes):$/;"	f	function:ECDSA.test_nonrandom
+not_much_entropy	ecdsa/test_pyecdsa.py	/^        def not_much_entropy(numbytes):$/;"	f	function:ECDSA.test_privkey_creation
+number_to_string	ecdsa/keys.py	/^from .util import string_to_number, number_to_string, randrange$/;"	i
+number_to_string	ecdsa/rfc6979.py	/^from .util import number_to_string, number_to_string_crop$/;"	i
+number_to_string	ecdsa/util.py	/^def number_to_string(num, order):$/;"	f
+number_to_string_crop	ecdsa/rfc6979.py	/^from .util import number_to_string, number_to_string_crop$/;"	i
+number_to_string_crop	ecdsa/util.py	/^def number_to_string_crop(num, order):$/;"	f
+numbertheory	ecdsa/ecdsa.py	/^from . import numbertheory$/;"	i
+numbertheory	ecdsa/ellipticcurve.py	/^from . import numbertheory$/;"	i
+numbertheory	linkable_ring_signature.py	/^from ecdsa import numbertheory$/;"	i
+oid_ecPublicKey	ecdsa/keys.py	/^from .util import oid_ecPublicKey, encoded_oid_ecPublicKey$/;"	i
+oid_ecPublicKey	ecdsa/util.py	/^oid_ecPublicKey = (1, 2, 840, 10045, 2, 1)$/;"	v
+order	ecdsa/ellipticcurve.py	/^  def order(self):$/;"	m	class:Point
+order	ecdsa/test_pyecdsa.py	/^            def order(self):$/;"	m	class:ECDSA.test_pubkey_strings.FakeGenerator
+order_mod	ecdsa/numbertheory.py	/^def order_mod(x, m):$/;"	f
+orderlen	ecdsa/curves.py	/^def orderlen(order):$/;"	f
+orderlen	ecdsa/util.py	/^from .curves import orderlen$/;"	i
+os	__init__.py	/^import os$/;"	i
+os	ecdsa/_version.py	/^import os$/;"	i
+os	ecdsa/test_pyecdsa.py	/^import os$/;"	i
+os	ecdsa/util.py	/^import os$/;"	i
+os	ecdsa/versioneer.py	/^import os$/;"	i
+os	linkable_ring_signature.py	/^import os$/;"	i
+p	ecdsa/ellipticcurve.py	/^  def p(self):$/;"	m	class:CurveFp
+package_dir	ecdsa/setup.py	/^      package_dir={"": "src"},$/;"	v
+packages	ecdsa/setup.py	/^      packages=["ecdsa"],$/;"	v
+phi	ecdsa/numbertheory.py	/^def phi(n):$/;"	f
+plus_or_dot	ecdsa/_version.py	/^def plus_or_dot(pieces):$/;"	f
+plus_or_dot	ecdsa/versioneer.py	/^def plus_or_dot(pieces):$/;"	f
+point_is_valid	ecdsa/ecdsa.py	/^def point_is_valid(generator, x, y):$/;"	f
+polynomial_exp_mod	ecdsa/numbertheory.py	/^def polynomial_exp_mod(base, exponent, polymod, p):$/;"	f
+polynomial_multiply_mod	ecdsa/numbertheory.py	/^def polynomial_multiply_mod(m1, m2, polymod, p):$/;"	f
+polynomial_reduce_mod	ecdsa/numbertheory.py	/^def polynomial_reduce_mod(poly, polymod, p):$/;"	f
+print_	ecdsa/test_ecdsa.py	/^from six import print_$/;"	i
+print_	ecdsa/test_ellipticcurve.py	/^from six import print_$/;"	i
+print_	ecdsa/test_numbertheory.py	/^from six import print_$/;"	i
+print_	ecdsa/test_pyecdsa.py	/^from six import b, print_, binary_type$/;"	i
+print_function	ecdsa/versioneer.py	/^from __future__ import print_function$/;"	i
+py2	ecdsa/versioneer.py	/^            from py2exe.build_exe import py2exe as _py2exe  # py2$/;"	i
+py3	ecdsa/versioneer.py	/^            from py2exe.distutils_buildexe import py2exe as _py2exe  # py3$/;"	i
+python_2_unicode_compatible	ecdsa/ellipticcurve.py	/^from six import python_2_unicode_compatible$/;"	i
+random	ecdsa/test_ecdsa.py	/^import random$/;"	i
+random	ecdsa/test_numbertheory.py	/^  import random$/;"	i
+randrange	ecdsa/keys.py	/^from .util import string_to_number, number_to_string, randrange$/;"	i
+randrange	ecdsa/util.py	/^def randrange(order, entropy=None):$/;"	f
+randrange	linkable_ring_signature.py	/^from ecdsa.util import randrange$/;"	i
+randrange_from_seed__overshoot_modulo	ecdsa/util.py	/^def randrange_from_seed__overshoot_modulo(seed, order):$/;"	f
+randrange_from_seed__truncate_bits	ecdsa/util.py	/^def randrange_from_seed__truncate_bits(seed, order, hashmod=sha256):$/;"	f
+randrange_from_seed__truncate_bytes	ecdsa/util.py	/^def randrange_from_seed__truncate_bytes(seed, order, hashmod=sha256):$/;"	f
+randrange_from_seed__trytryagain	ecdsa/util.py	/^def randrange_from_seed__trytryagain(seed, order):$/;"	f
+re	ecdsa/_version.py	/^import re$/;"	i
+re	ecdsa/versioneer.py	/^import re$/;"	i
+read_length	ecdsa/der.py	/^def read_length(string):$/;"	f
+read_number	ecdsa/der.py	/^def read_number(string):$/;"	f
+reduce	ecdsa/numbertheory.py	/^from six.moves import reduce$/;"	i
+register_vcs_handler	ecdsa/_version.py	/^def register_vcs_handler(vcs, method):  # decorator$/;"	f
+register_vcs_handler	ecdsa/versioneer.py	/^def register_vcs_handler(vcs, method):  # decorator$/;"	f
+remove_bitstring	ecdsa/der.py	/^def remove_bitstring(string):$/;"	f
+remove_constructed	ecdsa/der.py	/^def remove_constructed(string):$/;"	f
+remove_integer	ecdsa/der.py	/^def remove_integer(string):$/;"	f
+remove_object	ecdsa/der.py	/^def remove_object(string):$/;"	f
+remove_octet_string	ecdsa/der.py	/^def remove_octet_string(string):$/;"	f
+remove_sequence	ecdsa/der.py	/^def remove_sequence(string):$/;"	f
+render	ecdsa/_version.py	/^def render(pieces, style):$/;"	f
+render	ecdsa/versioneer.py	/^def render(pieces, style):$/;"	f
+render_git_describe	ecdsa/_version.py	/^def render_git_describe(pieces):$/;"	f
+render_git_describe	ecdsa/versioneer.py	/^def render_git_describe(pieces):$/;"	f
+render_git_describe_long	ecdsa/_version.py	/^def render_git_describe_long(pieces):$/;"	f
+render_git_describe_long	ecdsa/versioneer.py	/^def render_git_describe_long(pieces):$/;"	f
+render_pep440	ecdsa/_version.py	/^def render_pep440(pieces):$/;"	f
+render_pep440	ecdsa/versioneer.py	/^def render_pep440(pieces):$/;"	f
+render_pep440_old	ecdsa/_version.py	/^def render_pep440_old(pieces):$/;"	f
+render_pep440_old	ecdsa/versioneer.py	/^def render_pep440_old(pieces):$/;"	f
+render_pep440_post	ecdsa/_version.py	/^def render_pep440_post(pieces):$/;"	f
+render_pep440_post	ecdsa/versioneer.py	/^def render_pep440_post(pieces):$/;"	f
+render_pep440_pre	ecdsa/_version.py	/^def render_pep440_pre(pieces):$/;"	f
+render_pep440_pre	ecdsa/versioneer.py	/^def render_pep440_pre(pieces):$/;"	f
+rfc6979	ecdsa/keys.py	/^from . import rfc6979$/;"	i
+rfc6979	ecdsa/test_pyecdsa.py	/^from . import rfc6979$/;"	i
+ring_signature	linkable_ring_signature.py	/^def ring_signature(siging_key, key_idx, M, y, G=SECP256k1.generator, hash_func=hashlib.sha3_256):$/;"	f
+run	ecdsa/versioneer.py	/^            def run(self):$/;"	m	class:get_cmdclass.cmd_build_py.cmd_build_exe
+run	ecdsa/versioneer.py	/^            def run(self):$/;"	m	class:get_cmdclass.cmd_build_py.cmd_py2exe
+run	ecdsa/versioneer.py	/^        def run(self):$/;"	m	class:get_cmdclass.cmd_build_py
+run	ecdsa/versioneer.py	/^        def run(self):$/;"	m	class:get_cmdclass.cmd_sdist
+run	ecdsa/versioneer.py	/^        def run(self):$/;"	m	class:get_cmdclass.cmd_version
+run_command	ecdsa/_version.py	/^def run_command(commands, args, cwd=None, verbose=False, hide_stderr=False,$/;"	f
+run_command	ecdsa/versioneer.py	/^def run_command(commands, args, cwd=None, verbose=False, hide_stderr=False,$/;"	f
+run_openssl	ecdsa/test_pyecdsa.py	/^def run_openssl(cmd):$/;"	f
+s	ecdsa/speed.py	/^    S1 = "import six; from ecdsa import SigningKey, %s" % curve$/;"	i
+s	ecdsa/test_pyecdsa.py	/^        def s(n):$/;"	f	function:DER.test_integer
+scan_setup_py	ecdsa/versioneer.py	/^def scan_setup_py():$/;"	f
+setup	ecdsa/setup.py	/^from setuptools import setup$/;"	i
+sha1	ecdsa/ecdsa.py	/^  from hashlib import sha1$/;"	i
+sha1	ecdsa/keys.py	/^from hashlib import sha1$/;"	i
+sha1	ecdsa/test_pyecdsa.py	/^from hashlib import sha1, sha256, sha512$/;"	i
+sha256	ecdsa/test_pyecdsa.py	/^from hashlib import sha1, sha256, sha512$/;"	i
+sha256	ecdsa/util.py	/^from hashlib import sha256$/;"	i
+sha512	ecdsa/test_pyecdsa.py	/^from hashlib import sha1, sha256, sha512$/;"	i
+shutil	ecdsa/test_pyecdsa.py	/^import shutil$/;"	i
+sig	ecdsa/speed.py	/^    sig = ecdsa.SigningKey.generate(c).sign(six.b("msg"))$/;"	v
+sigdecode_der	ecdsa/test_pyecdsa.py	/^from .util import sigdecode_der, sigdecode_strings$/;"	i
+sigdecode_der	ecdsa/util.py	/^def sigdecode_der(sig_der, order):$/;"	f
+sigdecode_string	ecdsa/keys.py	/^from .util import sigencode_string, sigdecode_string$/;"	i
+sigdecode_string	ecdsa/util.py	/^def sigdecode_string(signature, order):$/;"	f
+sigdecode_strings	ecdsa/test_pyecdsa.py	/^from .util import sigdecode_der, sigdecode_strings$/;"	i
+sigdecode_strings	ecdsa/util.py	/^def sigdecode_strings(rs_strings, order):$/;"	f
+sigencode_der	ecdsa/test_pyecdsa.py	/^from .util import sigencode_der, sigencode_strings$/;"	i
+sigencode_der	ecdsa/util.py	/^def sigencode_der(r, s, order):$/;"	f
+sigencode_der_canonize	ecdsa/util.py	/^def sigencode_der_canonize(r, s, order):$/;"	f
+sigencode_string	ecdsa/keys.py	/^from .util import sigencode_string, sigdecode_string$/;"	i
+sigencode_string	ecdsa/util.py	/^def sigencode_string(r, s, order):$/;"	f
+sigencode_string_canonize	ecdsa/util.py	/^def sigencode_string_canonize(r, s, order):$/;"	f
+sigencode_strings	ecdsa/test_pyecdsa.py	/^from .util import sigencode_der, sigencode_strings$/;"	i
+sigencode_strings	ecdsa/util.py	/^def sigencode_strings(r, s, order):$/;"	f
+sigencode_strings_canonize	ecdsa/util.py	/^def sigencode_strings_canonize(r, s, order):$/;"	f
+sign	ecdsa/ecdsa.py	/^  def sign(self, hash, random_k):$/;"	m	class:Private_key
+sign	ecdsa/keys.py	/^    def sign(self, data, entropy=None, hashfunc=None, sigencode=sigencode_string, k=None):$/;"	m	class:SigningKey
+sign	ecdsa/speed.py	/^    sign = do([S1,S2,S3], S4)$/;"	v
+sign_deterministic	ecdsa/keys.py	/^    def sign_deterministic(self, data, hashfunc=None, sigencode=sigencode_string):$/;"	m	class:SigningKey
+sign_digest	ecdsa/keys.py	/^    def sign_digest(self, digest, entropy=None, sigencode=sigencode_string, k=None):$/;"	m	class:SigningKey
+sign_digest_deterministic	ecdsa/keys.py	/^    def sign_digest_deterministic(self, digest, hashfunc=None, sigencode=sigencode_string):$/;"	m	class:SigningKey
+sign_number	ecdsa/keys.py	/^    def sign_number(self, number, entropy=None, k=None):$/;"	m	class:SigningKey
+six	ecdsa/speed.py	/^    S1 = "import six; from ecdsa import SigningKey, %s" % curve$/;"	i
+six	ecdsa/speed.py	/^import six$/;"	i
+smallprimes	ecdsa/numbertheory.py	/^smallprimes = [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41,$/;"	v
+square_root_mod_prime	ecdsa/numbertheory.py	/^def square_root_mod_prime(a, p):$/;"	f
+string_to_int	ecdsa/ecdsa.py	/^def string_to_int(s):$/;"	f
+string_to_number	ecdsa/keys.py	/^from .util import string_to_number, number_to_string, randrange$/;"	i
+string_to_number	ecdsa/util.py	/^def string_to_number(string):$/;"	f
+string_to_number_fixedlen	ecdsa/util.py	/^def string_to_number_fixedlen(string, order):$/;"	f
+stringify_point	linkable_ring_signature.py	/^def stringify_point(p):$/;"	f
+stringify_point_js	linkable_ring_signature.py	/^def stringify_point_js(p):$/;"	f
+subprocess	ecdsa/_version.py	/^import subprocess$/;"	i
+subprocess	ecdsa/test_pyecdsa.py	/^import subprocess$/;"	i
+subprocess	ecdsa/versioneer.py	/^import subprocess$/;"	i
+sys	__init__.py	/^import sys$/;"	i
+sys	ecdsa/_version.py	/^import sys$/;"	i
+sys	ecdsa/versioneer.py	/^import sys$/;"	i
+test_1	ecdsa/test_pyecdsa.py	/^    def test_1(self):$/;"	m	class:RFC6979
+test_10	ecdsa/test_pyecdsa.py	/^    def test_10(self):$/;"	m	class:RFC6979
+test_2	ecdsa/test_pyecdsa.py	/^    def test_2(self):$/;"	m	class:RFC6979
+test_3	ecdsa/test_pyecdsa.py	/^    def test_3(self):$/;"	m	class:RFC6979
+test_4	ecdsa/test_pyecdsa.py	/^    def test_4(self):$/;"	m	class:RFC6979
+test_5	ecdsa/test_pyecdsa.py	/^    def test_5(self):$/;"	m	class:RFC6979
+test_6	ecdsa/test_pyecdsa.py	/^    def test_6(self):$/;"	m	class:RFC6979
+test_7	ecdsa/test_pyecdsa.py	/^    def test_7(self):$/;"	m	class:RFC6979
+test_8	ecdsa/test_pyecdsa.py	/^    def test_8(self):$/;"	m	class:RFC6979
+test_9	ecdsa/test_pyecdsa.py	/^    def test_9(self):$/;"	m	class:RFC6979
+test_SECP256k1	ecdsa/test_pyecdsa.py	/^    def test_SECP256k1(self):$/;"	m	class:RFC6979
+test_SECP256k1_2	ecdsa/test_pyecdsa.py	/^    def test_SECP256k1_2(self):$/;"	m	class:RFC6979
+test_SECP256k1_3	ecdsa/test_pyecdsa.py	/^    def test_SECP256k1_3(self):$/;"	m	class:RFC6979
+test_SECP256k1_4	ecdsa/test_pyecdsa.py	/^    def test_SECP256k1_4(self):$/;"	m	class:RFC6979
+test_SECP256k1_5	ecdsa/test_pyecdsa.py	/^    def test_SECP256k1_5(self):$/;"	m	class:RFC6979
+test_SECP256k1_6	ecdsa/test_pyecdsa.py	/^    def test_SECP256k1_6(self):$/;"	m	class:RFC6979
+test_add	ecdsa/test_ellipticcurve.py	/^  def test_add(c, x1, y1, x2, y2, x3, y3):$/;"	f	function:test_ellipticcurve
+test_bad_usage	ecdsa/test_pyecdsa.py	/^    def test_bad_usage(self):$/;"	m	class:ECDSA
+test_basic	ecdsa/test_pyecdsa.py	/^    def test_basic(self):$/;"	m	class:ECDSA
+test_constructed	ecdsa/test_pyecdsa.py	/^    def test_constructed(self):$/;"	m	class:DER
+test_deterministic	ecdsa/test_pyecdsa.py	/^    def test_deterministic(self):$/;"	m	class:ECDSA
+test_double	ecdsa/test_ellipticcurve.py	/^  def test_double(c, x1, y1, x3, y3):$/;"	f	function:test_ellipticcurve
+test_double_infinity	ecdsa/test_ellipticcurve.py	/^  def test_double_infinity(c):$/;"	f	function:test_ellipticcurve
+test_ecdsa	ecdsa/test_ecdsa.py	/^def test_ecdsa():$/;"	f
+test_ellipticcurve	ecdsa/test_ellipticcurve.py	/^def test_ellipticcurve():$/;"	f
+test_from_openssl_nist192p	ecdsa/test_pyecdsa.py	/^    def test_from_openssl_nist192p(self):$/;"	m	class:OpenSSL
+test_from_openssl_nist224p	ecdsa/test_pyecdsa.py	/^    def test_from_openssl_nist224p(self):$/;"	m	class:OpenSSL
+test_from_openssl_nist256p	ecdsa/test_pyecdsa.py	/^    def test_from_openssl_nist256p(self):$/;"	m	class:OpenSSL
+test_from_openssl_nist384p	ecdsa/test_pyecdsa.py	/^    def test_from_openssl_nist384p(self):$/;"	m	class:OpenSSL
+test_from_openssl_nist521p	ecdsa/test_pyecdsa.py	/^    def test_from_openssl_nist521p(self):$/;"	m	class:OpenSSL
+test_from_openssl_secp256k1	ecdsa/test_pyecdsa.py	/^    def test_from_openssl_secp256k1(self):$/;"	m	class:OpenSSL
+test_hashfunc	ecdsa/test_pyecdsa.py	/^    def test_hashfunc(self):$/;"	m	class:ECDSA
+test_integer	ecdsa/test_pyecdsa.py	/^    def test_integer(self):$/;"	m	class:DER
+test_length	ecdsa/test_pyecdsa.py	/^    def test_length(self):$/;"	m	class:DER
+test_lengths	ecdsa/test_pyecdsa.py	/^    def test_lengths(self):$/;"	m	class:ECDSA
+test_multiply	ecdsa/test_ellipticcurve.py	/^  def test_multiply(c, x1, y1, m, x3, y3):$/;"	f	function:test_ellipticcurve
+test_nonrandom	ecdsa/test_pyecdsa.py	/^    def test_nonrandom(self):$/;"	m	class:ECDSA
+test_number	ecdsa/test_pyecdsa.py	/^    def test_number(self):$/;"	m	class:DER
+test_numbertheory	ecdsa/test_numbertheory.py	/^def test_numbertheory():$/;"	f
+test_oids	ecdsa/test_pyecdsa.py	/^    def test_oids(self):$/;"	m	class:DER
+test_point_validity	ecdsa/test_ecdsa.py	/^  def test_point_validity(generator, x, y, expected):$/;"	f	function:test_ecdsa
+test_privkey_creation	ecdsa/test_pyecdsa.py	/^    def test_privkey_creation(self):$/;"	m	class:ECDSA
+test_privkey_strings	ecdsa/test_pyecdsa.py	/^    def test_privkey_strings(self):$/;"	m	class:ECDSA
+test_pubkey_strings	ecdsa/test_pyecdsa.py	/^    def test_pubkey_strings(self):$/;"	m	class:ECDSA
+test_randrange	ecdsa/test_pyecdsa.py	/^    def test_randrange(self):$/;"	m	class:Util
+test_sequence	ecdsa/test_pyecdsa.py	/^    def test_sequence(self):$/;"	m	class:DER
+test_serialize	ecdsa/test_pyecdsa.py	/^    def test_serialize(self):$/;"	m	class:ECDSA
+test_signature_strings	ecdsa/test_pyecdsa.py	/^    def test_signature_strings(self):$/;"	m	class:ECDSA
+test_signature_validity	ecdsa/test_ecdsa.py	/^  def test_signature_validity(Msg, Qx, Qy, R, S, expected):$/;"	f	function:test_ecdsa
+test_to_openssl_nist192p	ecdsa/test_pyecdsa.py	/^    def test_to_openssl_nist192p(self):$/;"	m	class:OpenSSL
+test_to_openssl_nist224p	ecdsa/test_pyecdsa.py	/^    def test_to_openssl_nist224p(self):$/;"	m	class:OpenSSL
+test_to_openssl_nist256p	ecdsa/test_pyecdsa.py	/^    def test_to_openssl_nist256p(self):$/;"	m	class:OpenSSL
+test_to_openssl_nist384p	ecdsa/test_pyecdsa.py	/^    def test_to_openssl_nist384p(self):$/;"	m	class:OpenSSL
+test_to_openssl_nist521p	ecdsa/test_pyecdsa.py	/^    def test_to_openssl_nist521p(self):$/;"	m	class:OpenSSL
+test_to_openssl_secp256k1	ecdsa/test_pyecdsa.py	/^    def test_to_openssl_secp256k1(self):$/;"	m	class:OpenSSL
+test_trytryagain	ecdsa/test_pyecdsa.py	/^    def test_trytryagain(self):$/;"	m	class:Util
+text_type	ecdsa/der.py	/^from six import int2byte, b, integer_types, text_type$/;"	i
+time	ecdsa/test_pyecdsa.py	/^import time$/;"	i
+timeit	ecdsa/speed.py	/^import timeit$/;"	i
+to_der	ecdsa/keys.py	/^    def to_der(self):$/;"	m	class:SigningKey
+to_der	ecdsa/keys.py	/^    def to_der(self):$/;"	m	class:VerifyingKey
+to_pem	ecdsa/keys.py	/^    def to_pem(self):$/;"	m	class:SigningKey
+to_pem	ecdsa/keys.py	/^    def to_pem(self):$/;"	m	class:VerifyingKey
+to_string	ecdsa/keys.py	/^    def to_string(self):$/;"	m	class:SigningKey
+to_string	ecdsa/keys.py	/^    def to_string(self):$/;"	m	class:VerifyingKey
+topem	ecdsa/der.py	/^def topem(der, name):$/;"	f
+unhexlify	ecdsa/test_pyecdsa.py	/^from binascii import hexlify, unhexlify$/;"	i
+unittest	ecdsa/test_pyecdsa.py	/^import unittest$/;"	i
+unpem	ecdsa/der.py	/^def unpem(pem):$/;"	f
+url	ecdsa/setup.py	/^      url="http:\/\/github.com\/warner\/python-ecdsa",$/;"	v
+user_options	ecdsa/versioneer.py	/^        user_options = []$/;"	v	class:get_cmdclass.cmd_version
+util	ecdsa/test_pyecdsa.py	/^from . import util$/;"	i
+verf	ecdsa/speed.py	/^    verf = do([S1,S2,S3,S4,S5], S6)$/;"	v
+verifies	ecdsa/ecdsa.py	/^  def verifies(self, hash, signature):$/;"	m	class:Public_key
+verify	ecdsa/keys.py	/^    def verify(self, signature, data, hashfunc=None, sigdecode=sigdecode_string):$/;"	m	class:VerifyingKey
+verify_digest	ecdsa/keys.py	/^    def verify_digest(self, signature, digest, sigdecode=sigdecode_string):$/;"	m	class:VerifyingKey
+verify_ring_signature	linkable_ring_signature.py	/^def verify_ring_signature(message, y, c_0, s, Y, G=SECP256k1.generator, hash_func=hashlib.sha3_256):$/;"	f
+version	ecdsa/setup.py	/^      version=versioneer.get_version(),$/;"	v
+versioneer	ecdsa/setup.py	/^import versioneer$/;"	i
+versioneer	ecdsa/versioneer.py	/^            if "import versioneer" in line:$/;"	i
+versioneer	ecdsa/versioneer.py	/^        print(" import versioneer")$/;"	i
+versions_from_file	ecdsa/versioneer.py	/^def versions_from_file(filename):$/;"	f
+versions_from_parentdir	ecdsa/_version.py	/^def versions_from_parentdir(parentdir_prefix, root, verbose):$/;"	f
+versions_from_parentdir	ecdsa/versioneer.py	/^def versions_from_parentdir(parentdir_prefix, root, verbose):$/;"	f
+with_statement	ecdsa/test_pyecdsa.py	/^from __future__ import with_statement, division$/;"	i
+write_to_version_file	ecdsa/versioneer.py	/^def write_to_version_file(filename, versions):$/;"	f
+x	ecdsa/ellipticcurve.py	/^  def x(self):$/;"	m	class:Point
+y	ecdsa/ellipticcurve.py	/^  def y(self):$/;"	m	class:Point
